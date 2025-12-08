@@ -48,7 +48,7 @@
 					<p>
 						Fuz is a zippy stack and forge for the commons. Right now Fuz includes a collection of
 						libraries for making modern websites with TypeScript, CSS, Svelte, and SvelteKit/Vite.
-						Soon they'll be joined by native tools for streamlined software development, written in
+						Soon they'll be joined by native tools for sovereign software development, written in
 						Rust.
 					</p>
 				</div>
