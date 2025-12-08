@@ -1,13 +1,13 @@
 {
-  "name": "@fuzdev/fuz_template",
+  "name": "www.fuz.dev",
   "version": "0.0.1",
   "description": "a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Gro, and Fuz",
-  "glyph": "❄",
+  "glyph": "🦋",
   "logo": "logo.svg",
   "logo_alt": "a friendly pixelated spider facing you",
   "public": true,
-  "homepage": "https://template.fuz.dev/",
-  "repository": "https://github.com/fuzdev/fuz_template",
+  "homepage": "https://www.fuz.dev/",
+  "repository": "https://github.com/fuzdev/www.fuz.dev",
   "scripts": {
     "start": "gro dev",
     "dev": "gro dev",
