@@ -26,10 +26,12 @@
 		glyph: string;
 	}
 
+	// TODO ideally this wouldn't duplicate metadata like descriptions, but adding fuz_gitops to this repo is heavy
 	// prettier-ignore
-	const project_items: Array<ProjectItem> = [ 
-		{name: 'moss', url: 'https://css.fuz.dev/', logo: fuz_css_logo, description: 'CSS framework and design system', glyph: '🌿'},
-		{name: 'template.fuz.dev', url: 'https://template.fuz.dev/', logo: fuz_template_logo, description: 'a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro', glyph: '🦋'},
+	const project_items: Array<ProjectItem> = [
+		{name: 'fuz_ui', url: 'https://css.fuz.dev/', logo: fuz_logo, description: 'Svelte UI library', glyph: '🧶'},
+		{name: 'fuz_css', url: 'https://css.fuz.dev/', logo: fuz_css_logo, description: 'CSS framework and design system', glyph: '🌿'},
+		{name: 'template.fuz.dev', url: 'https://template.fuz.dev/', logo: fuz_template_logo, description: 'a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro', glyph: '❄'},
 		{name: 'fuz_blog', url: 'https://blog.fuz.dev/', logo: fuz_blog_logo, description: 'blog software from scratch with SvelteKit', glyph: '🖊️'},
 		{name: 'fuz_mastodon', url: 'https://mastodon.fuz.dev/', logo: fuz_mastodon_logo, description: 'Mastodon components and helpers for Svelte, SvelteKit, and Fuz', glyph: '🦣'},
 		{name: 'fuz_code', url: 'https://code.fuz.dev/', logo: fuz_code_logo, description: 'syntax styling utilities and components for TypeScript, Svelte, SvelteKit', glyph: '🎨'},
@@ -55,8 +57,7 @@
 			</div>
 		</section>
 		<section class="panel p_lg shadow_inset_xs">
-			<!-- TODO ideally this wouldn't duplicate metadata like descriptions, but adding fuz_gitops to this repo is heavy -->
-			<h2 class="mt_0 mb_xl2 px_md">other packages</h2>
+			<h2 class="mt_0 mb_xl2 px_md">packages</h2>
 			<menu class="unstyled font_size_lg">
 				{#each project_items as project_item (project_item.name)}
 					{@render package_thumbnail(project_item)}
