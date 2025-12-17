@@ -19,7 +19,7 @@
 			<div class="mb_lg p_xs2 shadow_md border_radius_sm">
 				<div class="width_upto_sm panel p_lg shadow_inset_xs bg">
 					<p>
-						Fuz is a zippy stack for autonomy. Today Fuz has a collection of libraries for making
+						Fuz is a zippy stack for digital autonomy. Today Fuz has a collection of libraries for making
 						modern websites with TypeScript, CSS, Svelte, and SvelteKit, and soon they'll be joined
 						by native tools written in Rust.
 					</p>

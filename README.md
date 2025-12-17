@@ -4,7 +4,7 @@
 
 > friendly user zystem 🦋 [fuz.dev](https://www.fuz.dev/)
 
-Fuz is a zippy stack for autonomy.
+Fuz is a zippy stack for digital autonomy.
 Today Fuz has a collection of libraries for making modern websites
 with TypeScript, CSS, Svelte, and SvelteKit,
 and soon they'll be joined by native tools written in Rust.
