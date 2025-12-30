@@ -1,4 +1,14 @@
 {
+	"name": "fuz.dev",
+	"repo_name": "fuz.dev",
+	"repo_url": "https://github.com/fuzdev/fuz.dev",
+	"owner_name": "fuzdev",
+	"homepage_url": "https://www.fuz.dev/",
+	"logo_url": "https://www.fuz.dev/logo.svg",
+	"logo_alt": "a friendly pixelated spider facing you",
+	"npm_url": null,
+	"changelog_url": null,
+	"published": false,
 	"package_json": {
 		"name": "fuz.dev",
 		"version": "0.0.1",
@@ -23,9 +33,9 @@
 			"node": ">=22.15"
 		},
 		"devDependencies": {
-			"@fuzdev/fuz_css": "^0.42.1",
-			"@fuzdev/fuz_ui": "^0.174.0",
-			"@fuzdev/fuz_util": "^0.45.0",
+			"@fuzdev/fuz_css": "^0.43.0",
+			"@fuzdev/fuz_ui": "^0.175.0",
+			"@fuzdev/fuz_util": "^0.45.1",
 			"@ryanatkn/eslint-config": "^0.9.0",
 			"@ryanatkn/gro": "^0.184.0",
 			"@sveltejs/adapter-static": "^3.0.10",
@@ -64,15 +74,5 @@
 		"name": "fuz.dev",
 		"version": "0.0.1",
 		"modules": []
-	},
-	"name": "fuz.dev",
-	"repo_name": "fuz.dev",
-	"repo_url": "https://github.com/fuzdev/fuz.dev",
-	"owner_name": "fuzdev",
-	"homepage_url": "https://www.fuz.dev/",
-	"logo_url": "https://www.fuz.dev/logo.svg",
-	"logo_alt": "a friendly pixelated spider facing you",
-	"npm_url": null,
-	"changelog_url": null,
-	"published": false
+	}
 }
