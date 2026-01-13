@@ -20,7 +20,7 @@
 			<h1 class="mt_xl2">fuz.dev</h1>
 		</header>
 	</section>
-	<section class="box width_100 mb_lg">
+	<section class="box width:100% mb_lg">
 		<div class="panel p_lg width_upto_md">
 			<LibraryDetail {library} />
 		</div>
